@@ -29,10 +29,10 @@ Este proyecto es una pequeña aplicación web que muestra una cuenta regresiva s
 
 ## Personalización
 
-Puedes personalizar la cuenta regresiva ajustando la fecha objetivo en el archivo `script.js`. Busca la variable `targetDate` y modifica su valor según la fecha y hora deseadas.
+Puedes personalizar la cuenta regresiva ajustando la fecha objetivo en el archivo `script.js`. Busca la variable `inicioClase` y modifica su valor según la fecha y hora deseadas. Es `inicioClase` ya que fue ejercicio para ver el tiempo que faltaba para empezar el proyecto del curso de Hack a Boss que hicimos la Pokédex, podeis verla en el repositorio.
 
 ```javascript
 // Personaliza la fecha objetivo (Año, Mes [0-11], Día, Hora, Minuto, Segundo)
-const targetDate = new Date(2024, 11, 31, 23, 59, 59);
+const inicioClase = new Date('january 8, 2024 00:00:00').getTime();
 
 
