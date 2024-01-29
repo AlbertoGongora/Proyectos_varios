@@ -1,7 +1,7 @@
 const actualizador = setInterval(function(){
 
     //tiempo de inicio en milisegundos
-    const inicioClase = new Date('january 8, 2024 00:00:00').getTime();
+    const inicioClase = new Date('march 13, 2024 00:00:00').getTime();
     console.log(inicioClase);
 
     //tiempo de ahora en milisegundos
