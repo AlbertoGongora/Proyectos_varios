@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@codewith_muhilan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/kbdunktank');
+        @property --k {
+            syntax: "<number>";
+            initial-value: 0;
+            inherits: false;
+        }
+
+        html, body {
+            display: grid;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #302d2d;
+        }
+
+        svg[height="0"] {
+            position: absolute;
+        }
+
+        h1 {
+            --k: 0;
+                                
+            place-self: center;
+            background: linear-gradient(90deg, hsl(calc(var(--k)*1turn), 95%, 65%), hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font:  clamp(.875em, 7.25vw, 5em) 'KBDunkTank', sans-serif;
+            filter: url(#f);
+            text-align: center;
+            animation: anime 4s linear infinite;
+
+        }
+
+        @keyframes anime {
+            to {
+                --k: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <svg width="0" height="0">
+        <filter id="f" x="-50%" y="-200%" width="200%" height="500%">
+            <feGaussianBlur stdDeviation="35"></feGaussianBlur>
+            <feColorMatrix type="saturate" values="1.3"></feColorMatrix>
+            <feComposite in="SourceGraphic"></feComposite>
+        </filter>
+    </svg>
+    
+    <h1>@DevCodeFox</h1>
+
+</body>
+
+</html>
+
