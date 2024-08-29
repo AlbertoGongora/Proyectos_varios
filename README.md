@@ -25,7 +25,7 @@
      - **Tecnologías Utilizadas:** HTML5, CSS3 (con animaciones complejas y efectos de gradiente dinámicos), JavaScript (para manejar la interacción del cursor y aplicar los efectos de perspectiva en tiempo real).
      - **Problemas Resueltos:** Este subproyecto demuestra cómo integrar interacciones avanzadas que dependen del movimiento del cursor, utilizando JavaScript para modificar dinámicamente las transformaciones en 3D. Además, explora cómo utilizar gradientes dinámicos y efectos de sombra para mejorar la percepción de profundidad.
     
-  **[Subproyecto 3.3: Tarjeta de Perfil Interactiva]**
+  - **[Subproyecto 3.3: Tarjeta de Perfil Interactiva]**
     - **Descripción:** Este subproyecto es una tarjeta de perfil interactiva que permite al usuario navegar entre diferentes secciones (Acerca de, Experiencia, Contacto) dentro de la misma tarjeta. La tarjeta está diseñada para ser altamente visual y dinámica, con transiciones suaves entre secciones y efectos que mejoran la experiencia del usuario.
     - **Tecnologías Utilizadas:** HTML5, CSS3 (con enfoque en transiciones y animaciones), JavaScript (para manejar la navegación entre secciones y efectos interactivos).
     - **Problemas Resueltos:** El proyecto aborda la integración de múltiples secciones en una sola tarjeta interactiva, utilizando JavaScript para manejar la navegación y las transiciones entre secciones de manera fluida. Además, demuestra cómo crear una interfaz de usuario atractiva y funcional que responde a las interacciones del usuario.
