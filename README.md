@@ -70,13 +70,19 @@
 
 Todos los proyectos en este repositorio pueden ser ejecutados localmente utilizando la extensión **Live Server** de Visual Studio Code. Para hacerlo, sigue estos pasos:
 
-1. Clona el repositorio a tu máquina local:```bash git clone git@github.com/Proyectos_varios.git ```
+1. Clona el repositorio a tu máquina local:
+   ```bash
+   git clone git@github.com/Proyectos_varios.git
+   ```
 
-2. Navega a la carpeta del proyecto que deseas ejecutar: ```bash cd Proyectos_varios/proyectos/proyecto-1 ```
+3. Navega a la carpeta del proyecto que deseas ejecutar:
+   ```bash
+   cd Proyectos_varios/proyectos/proyecto-1
+   ```
 
-3. Abre la carpeta del proyecto en Visual Studio Code.
+5. Abre la carpeta del proyecto en Visual Studio Code.
 
-4. Haz clic derecho en el archivo index.html y selecciona "Open with Live Server".
+6. Haz clic derecho en el archivo index.html y selecciona "Open with Live Server".
 
 Esto iniciará un servidor local y abrirá el proyecto en tu navegador predeterminado.
 
