@@ -6,33 +6,32 @@
   box-sizing: border-box;
 }
 
-body {
+.card-turn-body {
   font-family: "Poppins", sans-serif;
-  background-color: #1a1a1a;
+  background-color: #302D2D;
   height: 100vh;
   align-items: center;
   display: grid;
   justify-content: center;
 }
 
-.card {
+.card-turn {
   width: 450px;
 }
 
-.card-content {
+.card-content-turn {
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 3s;
+  transition: transform 5s;
   height: 450px;
   width: 450px;
 
 }
 
-.card:hover .card-content {
+.card-turn:hover .card-content-turn {
   transform: rotateY(180deg);
+  cursor: pointer;
 }
-
-
 
 .card-front,
 .card-back {

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Texto</title>
+</head>
+<body>
+    <div class="container1">
+        <video class="myVideo" autoplay muted loop>
+            <source src="./NYC.mp4" type="video/mp4">
+        </video>
+        <h2 id="text1">NYC</h2>
+    </div>
+    <div class="container2">
+        <video class="myVideo" autoplay muted loop>
+            <source src="./NYC.mp4" type="video/mp4">
+        </video>
+        <h2 id="text2">NYC</h2>
+    </div>
+
+    <script>
+        const video = document.querySelector(".myVideo");
+        video.playbackRate = 0.8;
+    </script>
+</body>
+</html>

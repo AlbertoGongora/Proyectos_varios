@@ -1,8 +1,8 @@
 const actualizador = setInterval(function(){
 
     //tiempo de inicio en milisegundos
-    const inicioClase = new Date('march 13, 2024 00:00:00').getTime();
-    console.log(inicioClase);
+    const proximoEvento = new Date('december 24, 2024 00:00:00').getTime();
+    console.log(proximoEvento);
 
     //tiempo de ahora en milisegundos
 
@@ -11,7 +11,7 @@ const actualizador = setInterval(function(){
 
     //direrencia entre el inicio y el tiempo actual;
 
-    let tiempoRestante = inicioClase - tiempoActual;
+    let tiempoRestante = proximoEvento - tiempoActual;
     console.log(tiempoRestante);
 
     //Convertimos los milisegundos en segundos 1s = 1000 ms;

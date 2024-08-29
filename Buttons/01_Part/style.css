@@ -213,7 +213,6 @@ input#toggle:checked~#show-menu .btn .closeBtn {
 input#toggle:checked ~ #show-menu .circulo {
   width: 80px;
   height: 80px;
-  /* border-radius: 25%; */
   transition: all 1.5s cubic-bezier(.25, .8, .25, 1);
 }
 
@@ -225,7 +224,6 @@ input#toggle:checked ~ #show-menu .sub-circulo {
   border: 3px solid rgb(0, 191, 255);
   box-shadow: 0 0 30px rgb(0, 191, 255), inset 0 0 10px rgb(0, 191, 255);
   
-
   transition: all 1s cubic-bezier(.25, .8, .25, 1);
 }
 
