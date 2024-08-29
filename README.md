@@ -24,12 +24,11 @@
      - **Descripción:** Esta tarjeta incorpora un efecto dinámico de perspectiva que responde a la posición del cursor del usuario en la ventana. El diseño incluye una animación de fondo con un gradiente cambiante y elementos que reaccionan al movimiento del mouse, creando una sensación de profundidad y dinamismo.
      - **Tecnologías Utilizadas:** HTML5, CSS3 (con animaciones complejas y efectos de gradiente dinámicos), JavaScript (para manejar la interacción del cursor y aplicar los efectos de perspectiva en tiempo real).
      - **Problemas Resueltos:** Este subproyecto demuestra cómo integrar interacciones avanzadas que dependen del movimiento del cursor, utilizando JavaScript para modificar dinámicamente las transformaciones en 3D. Además, explora cómo utilizar gradientes dinámicos y efectos de sombra para mejorar la percepción de profundidad.
-    
-  - **[Subproyecto 3.3: Tarjeta de Perfil Interactiva]**
-    - **Descripción:** Este subproyecto es una tarjeta de perfil interactiva que permite al usuario navegar entre diferentes secciones (Acerca de, Experiencia, Contacto) dentro de la misma tarjeta. La tarjeta está diseñada para ser altamente visual y dinámica, con transiciones suaves entre secciones y efectos que mejoran la experiencia del usuario.
-    - **Tecnologías Utilizadas:** HTML5, CSS3 (con enfoque en transiciones y animaciones), JavaScript (para manejar la navegación entre secciones y efectos interactivos).
-    - **Problemas Resueltos:** El proyecto aborda la integración de múltiples secciones en una sola tarjeta interactiva, utilizando JavaScript para manejar la navegación y las transiciones entre secciones de manera fluida. Además, demuestra cómo crear una interfaz de usuario atractiva y funcional que responde a las interacciones del usuario.
 
+   - **[Subproyecto 3.3: Tarjeta de Perfil Interactiva]**
+     - **Descripción:** Este subproyecto es una tarjeta de perfil interactiva que permite al usuario navegar entre diferentes secciones (Acerca de, Experiencia, Contacto) dentro de la misma tarjeta. La tarjeta está diseñada para ser altamente visual y dinámica, con transiciones suaves entre secciones y efectos que mejoran la experiencia del usuario.
+     - **Tecnologías Utilizadas:** HTML5, CSS3 (con enfoque en transiciones y animaciones), JavaScript (para manejar la navegación entre secciones y efectos interactivos).
+     - **Problemas Resueltos:** El proyecto aborda la integración de múltiples secciones en una sola tarjeta interactiva, utilizando JavaScript para manejar la navegación y las transiciones entre secciones de manera fluida. Además, demuestra cómo crear una interfaz de usuario atractiva y funcional que responde a las interacciones del usuario.
 
 4. **[Proyecto 4: Cuenta Regresiva]**
    - **Descripción:** Este proyecto implementa una cuenta regresiva dinámica que muestra los días, horas, minutos y segundos restantes hasta la llegada de la Navidad. El temporizador se actualiza en tiempo real, creando una experiencia interactiva y visualmente atractiva. La página también incluye un enlace que invita al usuario a sumergirse en el ambiente navideño con un video temático.
